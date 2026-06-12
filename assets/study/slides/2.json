@@ -1,0 +1,33 @@
+{
+  "title": "Clients of Community Health Nurses",
+  "slides": [
+    {"type": "title", "heading": "Clients of Community Health Nurses", "subtitle": "Who the community health nurse serves — and the concepts of health that guide care."},
+    {"type": "terms", "heading": "Levels of Client", "terms": [
+      {"term": "Individual", "definition": "The \"entry point\" of care (primary care)."},
+      {"term": "Family", "definition": "People who are integrated, interacting and interdependent — the basic unit of service/care."},
+      {"term": "Group / Aggregate / Population", "definition": "People sharing common characteristics, developmental stage, or exposure — and thus common health problems."},
+      {"term": "Community", "definition": "People sharing common geographic boundaries and/or common values and interests within a specific social system."}
+    ]},
+    {"type": "bullets", "heading": "Guiding Goals", "bullets": [
+      "Goal of PHC (Primary Health Care): self-reliance in health.",
+      "Goal of COPAR: community health development (social transformation).",
+      "Health is viewed as a continuum and is the goal of public health / CHN."
+    ]},
+    {"type": "terms", "heading": "Definitions of Health", "terms": [
+      {"term": "WHO", "definition": "Complete physical, mental and social well-being — not merely the absence of disease."},
+      {"term": "Dunn & Pender", "definition": "An integrated method of functioning oriented toward maximizing the individual's potential."},
+      {"term": "Dubos", "definition": "Quality of life — social, emotional, mental, spiritual and biological fitness from adaptation to the environment."},
+      {"term": "Florence Nightingale", "definition": "Health and illness in relation to the environment."},
+      {"term": "Dorothea Orem", "definition": "Soundness and wholeness of human structures and bodily/mental functions."}
+    ]},
+    {"type": "bullets", "heading": "Determinants of Health", "bullets": [
+      "Genetics", "Income", "Education", "Behavior", "Health care delivery system"
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Four client levels: individual → family → group/population → community.",
+      "Family = basic unit of care; individual = entry point.",
+      "PHC goal = self-reliance; COPAR goal = social transformation.",
+      "Health determinants: genetics, income, education, behavior, health system."
+    ]}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Ebola",
+  "slides": [
+    {"type": "title", "heading": "Ebola Virus Disease", "subtitle": "A severe viral hemorrhagic illness spread through body secretions."},
+    {"type": "bullets", "heading": "Overview", "bullets": [
+      "Incubation period: 2–21 days.",
+      "Mode of transmission: human-to-human exposure to body secretions (except sweat); vector animals."
+    ]},
+    {"type": "table", "heading": "5 Causative Strains", "columns": ["Strain", "Note"], "rows": [
+      ["Zaire", "Most severe historically"],
+      ["Sudan", "—"],
+      ["Bundibugyo", "—"],
+      ["Tai Forest", "—"],
+      ["Reston", "Present in the Philippines; affects pigs"]
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Ebola spreads via body secretions (except sweat); incubation 2–21 days.",
+      "Five strains — the Reston strain is present in the Philippines and affects pigs.",
+      "Requires strict isolation and barrier precautions."
+    ]}
+  ]
+}

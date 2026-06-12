@@ -1,0 +1,38 @@
+{
+  "title": "Filariasis",
+  "slides": [
+    {"type": "title", "heading": "Filariasis", "subtitle": "A chronic, disfiguring parasitic disease of the lymphatic system."},
+    {"type": "bullets", "heading": "Overview", "bullets": [
+      "Often progresses to a chronic, debilitating, disfiguring disease (symptoms unnoticed early).",
+      "High rates in Region V (Bicol), VIII (Samar, Leyte), and XI (Davao).",
+      "Causative agents: Wuchereria bancrofti and Brugia malayi.",
+      "Transmitted by infected female mosquitoes (Aedes, Anopheles, Mansonia).",
+      "Larvae travel via bloodstream and lodge in lymphatic vessels/glands, maturing into adults."
+    ]},
+    {"type": "terms", "heading": "Biological Types", "terms": [
+      {"term": "Nocturnal", "definition": "Microfilaria circulate in peripheral blood at night (10 PM–2 AM)."},
+      {"term": "Diurnal", "definition": "Microfilaria circulate in greater concentration during the daytime."}
+    ]},
+    {"type": "table", "heading": "Clinical Stages", "columns": ["Stage", "Manifestations"], "rows": [
+      ["Acute", "Filarial fever & lymphatic inflammation (up to 10×/yr, abates in ~7 days); lymphadenitis, lymphangitis"],
+      ["Chronic (10–15 yrs)", "Hydrocele (scrotal swelling), lymphedema, elephantiasis (thickened skin of extremities)"]
+    ]},
+    {"type": "bullets", "heading": "Diagnosis", "bullets": [
+      "Blood smear — presence of microfilaria.",
+      "Immunochromatographic test (ICT).",
+      "Eosinophil count."
+    ]},
+    {"type": "bullets", "heading": "Management", "bullets": [
+      "Specific: Diethylcarbamazine (DEC) 6 mg/kg in divided doses for 12 consecutive days; Ivermectin (Mectizan).",
+      "DEC: take immediately after meals; prolonged use may cause vision loss, night blindness, tunnel vision.",
+      "Ivermectin: single dose with a full glass of water on an empty stomach; NOT for asthma patients.",
+      "Supportive: paracetamol, antihistamine (for DEC allergy), vitamin B complex, limb elevation, elastic stockings."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Wuchereria bancrofti / Brugia malayi → lymphatic filariasis.",
+      "Nocturnal microfilaria peak 10 PM–2 AM (key for blood smear timing).",
+      "Chronic stage → hydrocele, lymphedema, elephantiasis.",
+      "Treat with DEC (after meals) ± ivermectin (empty stomach, not in asthma)."
+    ]}
+  ]
+}

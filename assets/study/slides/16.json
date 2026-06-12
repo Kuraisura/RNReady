@@ -1,0 +1,52 @@
+{
+  "title": "Family Nursing Care Plan (APIE)",
+  "slides": [
+    {"type": "title", "heading": "Family Nursing Care Plan (APIE)", "subtitle": "The nursing process applied to families — Assessment, Planning, Implementation, Evaluation."},
+    {"type": "bullets", "heading": "Assessment", "bullets": [
+      "Collecting, organizing and analyzing data via interview and observation.",
+      "First-level assessment: determines WHAT the problems are.",
+      "Second-level assessment: determines WHY (the inability behind the problem)."
+    ]},
+    {"type": "terms", "heading": "4 Categories of Health Problem", "terms": [
+      {"term": "Wellness state", "definition": "Healthy / well."},
+      {"term": "Health deficit", "definition": "Disability & disease (already present)."},
+      {"term": "Health threat", "definition": "Increased risk for illness & injury."},
+      {"term": "Foreseeable crisis / stress points", "definition": "Anticipated developmental or social problems requiring adjustment."}
+    ]},
+    {"type": "bullets", "heading": "Planning (SMART)", "bullets": [
+      "Logical, step-by-step plan: goal setting → plan of action → choose interventions → prioritize.",
+      "Goals are Specific, Measurable, Attainable, Reliable, Time-bound.",
+      "Priority is scored with Maglaya's 4 criteria — highest score = highest priority.",
+      "Formula: (score / highest score) × weight."
+    ]},
+    {"type": "table", "heading": "Maglaya Prioritization Criteria", "columns": ["Criterion (Weight)", "Scale"], "rows": [
+      ["Nature of the problem (1)", "Wellness 3 · Health deficit 3 · Health threat 2 · Foreseeable crisis 1"],
+      ["Modifiability of the problem (2) — most important", "Easily 2 · Partially 1 · Not modifiable 0"],
+      ["Preventive potential (1)", "High 3 · Moderate 2 · Low 1"],
+      ["Salience / client's perception (1)", "Immediate 2 · Not immediate 1 · Not a problem 0"]
+    ]},
+    {"type": "terms", "heading": "Implementation — Types of Action", "terms": [
+      {"term": "Independent", "definition": "Within the nurse's scope of practice."},
+      {"term": "Dependent", "definition": "Requires a doctor's order."},
+      {"term": "Interdependent", "definition": "Collaborative care with the team."}
+    ]},
+    {"type": "terms", "heading": "Evaluation — SOP Elements", "terms": [
+      {"term": "Structural", "definition": "Physical settings — manpower, money, material/equipment."},
+      {"term": "Outcome", "definition": "Changes resulting from the nursing intervention."},
+      {"term": "Process", "definition": "The steps of the nursing process (APIE)."}
+    ]},
+    {"type": "bullets", "heading": "Organizing Family Data", "bullets": [
+      "Family structure & characteristics (genogram, ecomap, family tree).",
+      "Socioeconomic & cultural characteristics; spirituality/religion.",
+      "Family environment (home and neighborhood).",
+      "Family health & health behavior (ADLs, self-care, risk behaviors, health history).",
+      "Family Coping Index — premise that nursing action helps a family's coping capacity."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "APIE = Assessment, Planning, Implementation, Evaluation.",
+      "1st-level assessment = WHAT; 2nd-level = WHY.",
+      "Maglaya: modifiability carries the highest weight (2); formula = score/highest × weight.",
+      "Implementation: independent / dependent / interdependent."
+    ]}
+  ]
+}

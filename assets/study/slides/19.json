@@ -1,0 +1,50 @@
+{
+  "title": "COPAR & Public Health Nursing",
+  "slides": [
+    {"type": "title", "heading": "Community Organizing Participatory Action Research", "subtitle": "Empowering communities to study and solve their own health problems — the people are the researchers."},
+    {"type": "bullets", "heading": "What COPAR Is", "bullets": [
+      "Community Organization — plan the solution; Participatory Action Research — active participation.",
+      "Action research promotes development; the people are the researchers themselves.",
+      "Role of the nurse: facilitator, assist, teach.",
+      "Role of the people: leader — assess, plan, implement, evaluate."
+    ]},
+    {"type": "bullets", "heading": "Emphases of Community Organizing in PHC", "bullets": [
+      "People working together to solve their own problems.",
+      "Internal organizational consolidation before external expansion.",
+      "Social movement first, before technical change.",
+      "Health reforms within broader social transformation.",
+      "It is value-based, people-centered, participative, democratic, developmental and process-oriented."
+    ]},
+    {"type": "table", "heading": "Phases of COPAR", "columns": ["Phase", "Focus"], "rows": [
+      ["Pre-Entry", "Simplest phase — preliminary social investigation, site selection (GIDA criteria, ≥100 families), courtesy call, networking."],
+      ["Entry / Social Preparation", "Deepen social investigation, immersion/integration, identify potential leaders, form core group (5–8)."],
+      ["Organizational", "Plan solutions, build the Community Health Organization (CHO), elect & train officers, team building."],
+      ["Action", "Mobilization (people's power), program implementation, monitoring & evaluation, train BHWs."],
+      ["Sustenance & Strengthening", "Continue training, develop medium/long-term goals, turnover, self-reliance."]
+    ]},
+    {"type": "bullets", "heading": "Criteria for Potential Leaders", "bullets": [
+      "Active listener; a resident in good standing with moral ascendancy.",
+      "Influential and respected (charismatic); willing to work for the community; desires change.",
+      "Currently NOT holding a leadership post in other organizations (e.g., barangay)."
+    ]},
+    {"type": "table", "heading": "Population Pyramids", "columns": ["Type", "Meaning"], "rows": [
+      ["Expansive", "Increased birth rate, increased death rate."],
+      ["Stationary", "Steady growth of population."],
+      ["Constrictive", "Low birth rate, aging population (long life expectancy)."]
+    ]},
+    {"type": "terms", "heading": "Public Health Nursing (Winslow)", "terms": [
+      {"term": "Definition", "definition": "Science & art of preventing disease, prolonging life and promoting health through organized community effort."},
+      {"term": "Core functions", "definition": "Assessment (collect/analyze data), Policy development (advocacy), Assurance (services effective, available, accessible)."}
+    ]},
+    {"type": "bullets", "heading": "Roles of the PHN", "bullets": [
+      "Clinician/health care provider, Educator, Advocate, Manager, Case manager.",
+      "Collaborator, Leader, and Researcher/Epidemiologist (uses findings to drive policy)."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "COPAR phases: Pre-Entry → Entry → Organizational → Action → Sustenance.",
+      "The people lead and research; the nurse facilitates.",
+      "Population pyramids: expansive / stationary / constrictive.",
+      "PHN core functions: Assessment, Policy development, Assurance."
+    ]}
+  ]
+}

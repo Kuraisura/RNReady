@@ -1,0 +1,40 @@
+{
+  "title": "Zika",
+  "slides": [
+    {"type": "title", "heading": "Zika Virus", "subtitle": "A mosquito-borne flavivirus — usually mild, but dangerous in pregnancy."},
+    {"type": "bullets", "heading": "Overview", "bullets": [
+      "Causative agent: Zika virus.",
+      "Incubation period: 3–14 days.",
+      "Vectors: Aedes aegypti and Aedes albopictus.",
+      "Transmission: mosquito bite, congenital/intrauterine, perinatal, breastfeeding, sex, transfusion (platelet)."
+    ]},
+    {"type": "terms", "heading": "Clinical Manifestations (FREC)", "terms": [
+      {"term": "F", "definition": "Flu-like symptoms (fever, headache, anorexia, malaise)."},
+      {"term": "R", "definition": "Rash — maculopapular."},
+      {"term": "E", "definition": "Extreme joint pain, particularly in hands and feet."},
+      {"term": "C", "definition": "Conjunctivitis — red or sore eyes (nonpurulent)."}
+    ]},
+    {"type": "bullets", "heading": "Other Features", "bullets": [
+      "Mostly asymptomatic.",
+      "Other symptoms: edema, headache, lymphadenopathy, myalgia, retro-orbital pain, vomiting.",
+      "Diagnosis: PCR / Zika virus nucleic acid amplification testing (NAAT)."
+    ]},
+    {"type": "bullets", "heading": "Pregnancy Risks & DOH Guidelines", "bullets": [
+      "Congenital Zika Syndrome — brain defect (microcephaly), miscarriage, stillbirth, other birth defects.",
+      "Rarely associated with Guillain-Barré Syndrome.",
+      "Immediate OB-GYN referral if a pregnant woman has rash, fever, or red eyes.",
+      "Serial ultrasounds to monitor fetal development; counseling; refer high-risk pregnancies to tertiary hospitals."
+    ]},
+    {"type": "bullets", "heading": "Treatment (Symptomatic — No Specific Cure)", "bullets": [
+      "Paracetamol for fever and body aches; AVOID NSAIDs (ibuprofen, aspirin).",
+      "Rest and adequate hydration.",
+      "Prevention: 4 S's, repellents (DEET, Picaridin), nets, fogging, biologic vector control."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Zika = flavivirus; conjunctivitis distinguishes it from dengue/chikungunya.",
+      "Major danger is in pregnancy → microcephaly (Congenital Zika Syndrome).",
+      "Also spreads sexually, perinatally, and via transfusion.",
+      "Supportive care; paracetamol, avoid NSAIDs."
+    ]}
+  ]
+}

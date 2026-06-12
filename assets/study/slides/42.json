@@ -1,0 +1,40 @@
+{
+  "title": "Japanese Encephalitis",
+  "slides": [
+    {"type": "title", "heading": "Japanese Encephalitis (JE)", "subtitle": "A mosquito-borne viral brain infection transmitted by Culex mosquitoes."},
+    {"type": "bullets", "heading": "Overview", "bullets": [
+      "Causative agent: Japanese encephalitis (JE) virus.",
+      "Mode of transmission: mosquito bite.",
+      "Vector: Culex species — Culex tritaeniorhynchus.",
+      "Incubation period: 5–15 days.",
+      "Diagnosis: IgG and IgM antibodies, ELISA, cerebrospinal fluid (CSF) analysis."
+    ]},
+    {"type": "terms", "heading": "Clinical Manifestations (FIERCE)", "terms": [
+      {"term": "F", "definition": "Fever."},
+      {"term": "I", "definition": "Irritability / altered mental status."},
+      {"term": "E", "definition": "Encephalopathy — brain dysfunction."},
+      {"term": "R", "definition": "Rigidity — Parkinsonism-like symptoms."},
+      {"term": "C", "definition": "Convulsions (seizures)."},
+      {"term": "E", "definition": "Encephalitis — inflammation of the brain."}
+    ]},
+    {"type": "bullets", "heading": "Disease Course", "bullets": [
+      "Mild symptoms: fever, headache, vomiting.",
+      "<1% develop encephalitis: disorientation, weakness, coma; seizures common in children.",
+      "Classic sign: parkinsonian syndrome with mask-like facies, tremor, cogwheel rigidity, choreoathetoid movements.",
+      "Can cause acute flaccid paralysis resembling poliomyelitis."
+    ]},
+    {"type": "bullets", "heading": "Treatment (Hospital Admission)", "bullets": [
+      "Admit for altered mental status, seizures, high fever, neurologic signs.",
+      "Monitor vital signs, oxygen, neurologic function; fever control with paracetamol.",
+      "Anticonvulsants (diazepam, phenytoin) for seizures; IV fluids and nutrition.",
+      "Respiratory support (oxygen, intubation if needed).",
+      "Brain swelling: elevate head of bed, reduce stimulation, watch for herniation."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "JE = Culex-borne viral encephalitis; incubation 5–15 days.",
+      "Hallmark: parkinsonian features (mask-like facies, cogwheel rigidity).",
+      "Most cases mild; <1% progress to severe encephalitis (seizures, coma).",
+      "No specific cure — supportive hospital care, anticonvulsants, ICP management."
+    ]}
+  ]
+}

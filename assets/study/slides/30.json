@@ -1,0 +1,35 @@
+{
+  "title": "Epidemiological Triad & Stages of Disease",
+  "slides": [
+    {"type": "title", "heading": "The Epidemiological Triad", "subtitle": "Disease results from the interaction of agent, host, and environment."},
+    {"type": "terms", "heading": "Three Components", "terms": [
+      {"term": "Host", "definition": "Influences exposure, susceptibility or response — may be the patient, carrier, suspect or contact."},
+      {"term": "Environment", "definition": "All external conditions (physical, biological, socio-economic) that allow host exposure."},
+      {"term": "Infectious Agent", "definition": "The microorganism/pathogen that causes infection."}
+    ]},
+    {"type": "terms", "heading": "Factors Influencing Disease Causation", "terms": [
+      {"term": "Pathogenicity", "definition": "Ability of an organism to cause disease / damage the host."},
+      {"term": "Infectivity", "definition": "Ability to infect and multiply within the host."},
+      {"term": "Virulence", "definition": "Ability to produce disease severity."},
+      {"term": "Infective dose", "definition": "Number of organisms / amount of toxin needed to induce disease."}
+    ]},
+    {"type": "table", "heading": "Agent Profiles (Examples)", "columns": ["Agent", "Infectivity", "Pathogenicity", "Virulence"], "rows": [
+      ["Influenza", "High", "Moderate", "Low–moderate"],
+      ["Rabies", "Low", "Very high", "Extremely virulent"],
+      ["HIV", "Low–moderate", "High", "High over time"]
+    ]},
+    {"type": "table", "heading": "Stages of Disease", "columns": ["Stage", "Description"], "rows": [
+      ["Incubation", "From initial infection to first appearance of signs/symptoms."],
+      ["Prodromal", "Early, mild symptoms (first → general signs)."],
+      ["Period of illness", "Overt signs & symptoms; peak/acme; pathognomonic (specific) sign appears."],
+      ["Convalescence", "Signs & symptoms disappear — recovery."],
+      ["Defervescence", "Onset of complications leading to death."]
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Triad = Agent + Host + Environment.",
+      "Pathogenicity (causes disease), infectivity (infects), virulence (severity).",
+      "Rabies = very high pathogenicity/virulence but low infectivity.",
+      "Stages: incubation → prodromal → illness (peak) → convalescence."
+    ]}
+  ]
+}

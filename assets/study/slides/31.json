@@ -1,0 +1,44 @@
+{
+  "title": "Chain of Infection",
+  "slides": [
+    {"type": "title", "heading": "Chain of Infection", "subtitle": "The six links that must connect for an infectious disease to spread — break any link to stop transmission."},
+    {"type": "terms", "heading": "The Six Links", "terms": [
+      {"term": "Causative agent", "definition": "The pathogen capable of causing disease."},
+      {"term": "Reservoir", "definition": "Where the agent lives and multiplies (person, animal, soil, water)."},
+      {"term": "Portal of exit", "definition": "How the agent leaves the reservoir."},
+      {"term": "Mode of transmission", "definition": "How the pathogen spreads to a new host."},
+      {"term": "Portal of entry", "definition": "Where the agent enters the new host."},
+      {"term": "Susceptible host", "definition": "A person lacking effective resistance."}
+    ]},
+    {"type": "table", "heading": "Causative Agents", "columns": ["Agent", "Note", "Examples"], "rows": [
+      ["Bacteria", "Most common", "Diphtheria, Pertussis, Tetanus"],
+      ["Virus", "Most microscopic", "Measles, Mumps, Rubella, Varicella"],
+      ["Fungi", "Least common", "Buni, alipunga, an-an"],
+      ["Parasites", "Protozoa, helminths, flukes", "Filariasis, Malaria"]
+    ]},
+    {"type": "bullets", "heading": "Contact Transmission", "bullets": [
+      "Direct contact — person-to-person physical contact.",
+      "Horizontal — immediate transfer person to person.",
+      "Vertical — mother to child in utero (placenta) or during childbirth.",
+      "Indirect contact — via a non-living object (fomite = vehicle transmission).",
+      "Vector-borne — a living organism carries the pathogen to another."
+    ]},
+    {"type": "table", "heading": "Droplet vs Airborne", "columns": ["Feature", "Droplet", "Airborne"], "rows": [
+      ["Distance", "Within 1 m (3 ft)", "Regardless of distance"],
+      ["Particle size", ">5 microns", "<5 microns"],
+      ["Diseases", "PIMP — Pertussis, Influenza, Meningitis, Pneumonia", "MTV — Measles, Tuberculosis, Varicella"]
+    ]},
+    {"type": "bullets", "heading": "Other Modes & Portal of Entry", "bullets": [
+      "Enteric — feces of an infected person to the mouth of another.",
+      "Blood-borne — via blood transfusion.",
+      "Portals of entry: mouth, nose, eyes, rashes, cuts, needlestick injuries, surgical wounds, IV sites.",
+      "Protect entry: wound/IV dressings, remove tubes early, masks/goggles, prevent needlesticks, food & water safety."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Six links: agent → reservoir → exit → transmission → entry → susceptible host.",
+      "Droplet (PIMP) = within 1 m, >5 microns; Airborne (MTV) = any distance, <5 microns.",
+      "Bacteria = most common agent; viruses = most microscopic.",
+      "Break ANY link (e.g., hand hygiene) to stop the spread."
+    ]}
+  ]
+}

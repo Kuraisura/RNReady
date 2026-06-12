@@ -1,0 +1,59 @@
+{
+  "title": "Sterilization & Infection Control",
+  "slides": [
+    {"type": "title", "heading": "Breaking the Chain: Sterilization & Infection Control", "subtitle": "Cleaning, disinfection, sterilization, isolation, PPE and precautions."},
+    {"type": "terms", "heading": "Levels of Decontamination", "terms": [
+      {"term": "Cleaning", "definition": "Remove visible dirt with soap & water."},
+      {"term": "Disinfection", "definition": "Kills all microbes EXCEPT spores."},
+      {"term": "Sterilization", "definition": "Kills all microbes, including spores."}
+    ]},
+    {"type": "bullets", "heading": "Disinfecting Agents", "bullets": [
+      "Antiseptic (for skin): alcohol (min 60% per CDC), iodine/betadine, chlorhexidine, hydrogen peroxide, silver sulfadiazine.",
+      "Disinfectant (non-living surfaces): bleach, quaternary ammonium, phenols, formaldehyde.",
+      "Concurrent — while patient is still infectious; Terminal — after patient is gone; Prophylactic — preventive."
+    ]},
+    {"type": "table", "heading": "Methods of Sterilization", "columns": ["Method", "Conditions", "Used For"], "rows": [
+      ["Autoclave (moist heat)", "Steam under pressure, 121–134°C, 15–30 min", "Surgical instruments, dressings, glassware"],
+      ["Dry heat", "Hot air oven, 150–170°C, 1–2 hrs", "Glassware, metals, oils, powders"],
+      ["Gas (Ethylene oxide)", "Effective vs all microbes & spores", "Heat-sensitive equipment (endoscopes, plastics)"],
+      ["Radiation", "Ionizing (gamma/X-ray); UV for surfaces", "Disposable equipment, biosafety cabinets"]
+    ]},
+    {"type": "terms", "heading": "Separation Measures", "terms": [
+      {"term": "Isolation", "definition": "Separates people who are sick with a disease (known risk to others)."},
+      {"term": "Quarantine", "definition": "Separates/restricts people exposed but not yet symptomatic."},
+      {"term": "Cohorting", "definition": "Grouping patients with the same infection in an isolated area."}
+    ]},
+    {"type": "bullets", "heading": "Standard Precautions — Hand Hygiene", "bullets": [
+      "Most effective & practical method to control spread; the key element is FRICTION.",
+      "Handwashing: 4 mL liquid soap, 15–20 seconds (if not visibly soiled).",
+      "Hand rubbing: 3–5 mL alcohol, 30 seconds of friction.",
+      "Global Handwashing Day: October 15."
+    ]},
+    {"type": "bullets", "heading": "PPE — Donning & Doffing", "bullets": [
+      "Masks: surgical (droplet); N95/N99/N100 (airborne, high-risk).",
+      "Donning order: Gown → Mask → Goggles → Gloves (GowMaGogGlov).",
+      "Doffing order: Gloves → Goggles → Gown → Mask (GlovGogGowMa).",
+      "Safe injection: NEVER recap, bend/break, or reuse needles; discard in puncture-resistant containers."
+    ]},
+    {"type": "table", "heading": "Waste Segregation (Color Coding)", "columns": ["Color", "Type of Waste"], "rows": [
+      ["Black", "Non-infectious dry waste"],
+      ["Green", "Non-infectious wet waste"],
+      ["Yellow", "Infectious & pathological waste"],
+      ["Yellow w/ black band", "Chemical waste incl. heavy metals"],
+      ["Orange", "Radioactive waste"],
+      ["Red", "Sharps & pressurized containers"]
+    ]},
+    {"type": "table", "heading": "Transmission-Based Precautions", "columns": ["Type", "PPE / Setup", "Examples"], "rows": [
+      ["Contact", "Gloves, gown, single room; >3 ft", "MRSA, VRE, scabies, cutaneous diphtheria, HSV"],
+      ["Droplet", "Surgical mask, single room, spatial separation", "Influenza, pertussis, mumps, meningitis, rubella"],
+      ["Airborne", "N95, negative-pressure room, door closed, 6–12 air changes/hr", "TB, measles, varicella, SARS, smallpox"],
+      ["Protective (reverse)", "Private room, HEPA, positive pressure >12 ACH", "Chemotherapy, organ transplant patients"]
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Disinfection spares spores; sterilization kills everything.",
+      "Autoclave 121–134°C; EtO gas for heat-sensitive items.",
+      "Don gown-first, doff gloves-first; hand hygiene's key is friction.",
+      "Airborne = N95 + negative pressure; Protective = HEPA + positive pressure."
+    ]}
+  ]
+}

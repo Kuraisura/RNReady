@@ -1,0 +1,39 @@
+{
+  "title": "Community Health Nursing (Overview)",
+  "slides": [
+    {"type": "title", "heading": "Community Health Nursing", "subtitle": "Nursing + public health to promote health and prevent illness in population groups — delivered outside the hospital."},
+    {"type": "bullets", "heading": "What CHN Is", "bullets": [
+      "A synthesis of nursing knowledge/practice with the science and practice of public health.",
+      "Applied through the nursing process to promote health and prevent illness in population groups.",
+      "Care is comprehensive, general, continual — NOT episodic.",
+      "Recognizes the population as a whole and the impact of many factors on health.",
+      "Nurse and client have greater control and collaborate as equals in health decisions."
+    ]},
+    {"type": "bullets", "heading": "Focus: Health Promotion & Illness Prevention", "bullets": [
+      "Health promotion — raise the level of health through a healthy lifestyle (nutrition, diet, exercise, rest, stop smoking).",
+      "Illness prevention — specific protection (e.g., immunization, health teaching).",
+      "Ideal Body Weight (IBW): <10 yrs use growth chart; >10 yrs use BMI.",
+      "Normal BMI: 18–25 (WHO); 18–23 (APOG)."
+    ]},
+    {"type": "bullets", "heading": "Goal", "bullets": [
+      "Optimum level of functioning — the highest level of wellness for the population."
+    ]},
+    {"type": "terms", "heading": "Subspecialties of CHN", "terms": [
+      {"term": "School Health Nursing", "definition": "Health assessment once a year; safety of students."},
+      {"term": "Occupational Health Nursing", "definition": "Company nurse — health and safety of employees (50+ employees requires a company nurse)."},
+      {"term": "Mental Health Nursing", "definition": "Mental hygiene; addresses community mental-health issues. Governed by the Mental Health Law (RA 11036) — the first mental health act."}
+    ]},
+    {"type": "terms", "heading": "4 Facets of Mental Health Burden", "terms": [
+      {"term": "Defined burden", "definition": "Affects the individual."},
+      {"term": "Undefined burden", "definition": "Affects other individuals."},
+      {"term": "Hidden burden", "definition": "Stigma (mark of shame) and violation of human rights."},
+      {"term": "Future burden", "definition": "Affects the next generation."}
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "CHN = nursing + public health, delivered to populations outside the hospital.",
+      "Core aims: promote health, prevent illness; goal = optimum level of functioning.",
+      "Subspecialties: school, occupational, and mental health nursing.",
+      "Mental Health Law = RA 11036 (first mental health act)."
+    ]}
+  ]
+}

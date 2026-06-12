@@ -1,0 +1,38 @@
+{
+  "title": "Chikungunya / Viral Arthritis",
+  "slides": [
+    {"type": "title", "heading": "Chikungunya (Viral Arthritis)", "subtitle": "A mosquito-borne viral illness marked by fever and severe joint pain."},
+    {"type": "bullets", "heading": "Overview", "bullets": [
+      "Causative agent: Chikungunya virus.",
+      "Vector: Aedes aegypti (urban); Aedes albopictus (rural).",
+      "Incubation period: 3–7 days (range 1–12)."
+    ]},
+    {"type": "terms", "heading": "Clinical Manifestations (FARMS)", "terms": [
+      {"term": "F", "definition": "Flu-like symptoms (fever, headache, anorexia, malaise)."},
+      {"term": "A", "definition": "Arthralgia — severe joint pain, especially small joints."},
+      {"term": "R", "definition": "Rash — maculopapular, often starting on the face."},
+      {"term": "M", "definition": "Muscle pain (myalgia)."},
+      {"term": "S", "definition": "Swelling of joints."}
+    ]},
+    {"type": "bullets", "heading": "Diagnosis & Treatment (FECCS)", "bullets": [
+      "Diagnosis: ELISA (IgM & IgG anti-chikungunya antibodies); RT-PCR for genotyping.",
+      "Fever/pain: paracetamol — AVOID NSAIDs (ibuprofen, aspirin) until dengue is ruled out.",
+      "Encourage oral fluids (ORS, water, juice); Complete rest in the acute phase.",
+      "Chronic arthritis may persist weeks–months; Severe/neurologic cases → refer to hospital.",
+      "No specific antiviral; no commercially available vaccine (IXCHIQ available in the US only)."
+    ]},
+    {"type": "bullets", "heading": "Mosquito-Borne Prevention — 4 S's", "bullets": [
+      "Search and destroy breeding sites; Seek early consultation; Self-protection measures; Support fogging.",
+      "Repellents: DEET, Picaridin, Oil of Lemon Eucalyptus.",
+      "Treat mosquito nets twice a year; fogging only during outbreaks (early morning/late afternoon).",
+      "Biologic control: larvivorous fish (Gambusia/mosquito fish, Tilapia), frogs, neem & eucalyptus.",
+      "TREC: Treatment, Report (weekly), Early detection, Casefinding."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Aedes-borne virus; hallmark = severe joint pain (arthralgia) + rash.",
+      "Paracetamol for pain; avoid NSAIDs until dengue is excluded.",
+      "Supportive care only — no specific antiviral or local vaccine.",
+      "Prevent with the 4 S's and biologic vector control."
+    ]}
+  ]
+}

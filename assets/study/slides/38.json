@@ -1,0 +1,39 @@
+{
+  "title": "Dengue Fever",
+  "slides": [
+    {"type": "title", "heading": "Dengue Fever", "subtitle": "A vector-borne Flavivirus infection — fever, bleeding, and plasma leakage."},
+    {"type": "bullets", "heading": "Overview", "bullets": [
+      "RNA virus, family Flaviviridae, genus Flavivirus; serotypes DENV-1 to DENV-4 (a 5th announced 2013).",
+      "Incubation period: 5–7 days.",
+      "Classic signs: Fever, Headache, Anorexia, Malaise, muscle/joint pain + rashes + bleeding."
+    ]},
+    {"type": "bullets", "heading": "Vector — Aedes aegypti", "bullets": [
+      "Mode of transmission: vector-borne.",
+      "Day-biting (2 hours after sunrise & 2 hours before sundown).",
+      "Breeds in stagnant/clean water; low-flying, limited movement.",
+      "Fine white dots at the base of the wings; white bands on the legs."
+    ]},
+    {"type": "table", "heading": "Clinical Phases", "columns": ["Phase", "Days", "Findings"], "rows": [
+      ["Febrile", "Day 1–3", "FHAMS + joint pain, (+) tourniquet test, biphasic fever (40°C), retro-orbital pain, rash"],
+      ["Toxic / Critical", "Day 4–7", "All bleeding symptoms — hematemesis, bloody stool, menorrhagia; plasma leakage/shock"],
+      ["Convalescent", "Day 8–recovery", "Hemodynamic status stabilizes; diuresis ensues"]
+    ]},
+    {"type": "terms", "heading": "Diagnostics", "terms": [
+      {"term": "Tourniquet (Rumpel-Leeds) Test", "definition": "Capillary fragility test — applicable only in the febrile state; (+) if ≥20 petechiae per square inch."},
+      {"term": "Dengue Duo / RDT", "definition": "Blood test — NS1 antigen + antibodies (IgM = new infection, IgG = past infection)."},
+      {"term": "PCR", "definition": "Confirmatory test."}
+    ]},
+    {"type": "bullets", "heading": "Management", "bullets": [
+      "Fever: tepid sponge bath (25–35°C), paracetamol q4–6h. AVOID aspirin, NSAIDs (bleeding) and corticosteroids.",
+      "Anorexia: small frequent feedings; no dark-colored food; low-fat, low-fiber, non-irritating, non-carbonated.",
+      "Headache & malaise: bed rest, paracetamol.",
+      "Nose bleed: upright/seated, trunk slightly forward. Gum bleed: ice chips, cold compress on cheeks."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Aedes aegypti, day-biting, breeds in stagnant water; incubation 5–7 days.",
+      "Phases: febrile → toxic/critical (bleeding, day 4–7) → convalescent.",
+      "Tourniquet test (+) = ≥20 petechiae/sq inch; PCR confirms.",
+      "Give paracetamol; AVOID aspirin, NSAIDs, and corticosteroids."
+    ]}
+  ]
+}

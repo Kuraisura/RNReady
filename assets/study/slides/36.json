@@ -1,0 +1,37 @@
+{
+  "title": "Immunity & Notifiable Diseases",
+  "slides": [
+    {"type": "title", "heading": "Immunity", "subtitle": "How the body acquires protection — actively or passively, naturally or artificially."},
+    {"type": "table", "heading": "Types of Immunity", "columns": ["Type", "Natural", "Artificial"], "rows": [
+      ["Active (body makes antibodies)", "Infection with the actual disease", "Vaccination (killed/weakened organism)"],
+      ["Passive (antibodies given)", "Mother to child (placenta, breastmilk)", "Immune globulin injection"]
+    ]},
+    {"type": "terms", "heading": "Vaccine Types", "terms": [
+      {"term": "Live attenuated", "definition": "Live but weakened pathogens — NOT safe for pregnant/immunocompromised."},
+      {"term": "Inactivated (killed)", "definition": "Safe for immunocompromised; can cause allergic reaction."},
+      {"term": "Subunit / recombinant / conjugate", "definition": "Specific parts (proteins/sugars) that trigger an immune response."},
+      {"term": "Toxoid", "definition": "Inactivated bacterial toxins that still induce immunity."},
+      {"term": "mRNA", "definition": "Genetic instructions for cells to make a pathogen-surface protein."}
+    ]},
+    {"type": "bullets", "heading": "Vaccine Heat Sensitivity", "bullets": [
+      "Most sensitive to heat (−15 to −25°C, freezer): OPV and MMR.",
+      "Least sensitive (+2 to +8°C, body of refrigerator): Pentavalent, Hepatitis B, BCG, TT."
+    ]},
+    {"type": "bullets", "heading": "RA 11332 — Mandatory Reporting of Notifiable Diseases", "bullets": [
+      "Category I — report within 24 hours.",
+      "Category II — report weekly (Friday)."
+    ]},
+    {"type": "table", "heading": "RA 11332 Reporting Categories", "columns": ["Category I (24 hours)", "Category II (weekly)"], "rows": [
+      ["Meningococcal disease, Rabies, SARS", "Dengue, Cholera, Leptospirosis"],
+      ["COVID-19, Human avian influenza", "Bacterial meningitis, Malaria"],
+      ["Measles, Neonatal tetanus, Anthrax", "Diphtheria, Pertussis, Typhoid"],
+      ["Acute flaccid paralysis, AEFI", "Acute viral hepatitis, Influenza-like illness"]
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Active = body makes antibodies; passive = antibodies received.",
+      "Live attenuated vaccines are contraindicated in pregnancy/immunocompromise.",
+      "OPV & MMR are most heat-sensitive (freezer).",
+      "RA 11332: Category I within 24 h; Category II weekly (Friday)."
+    ]}
+  ]
+}

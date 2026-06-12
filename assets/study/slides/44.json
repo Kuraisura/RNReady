@@ -1,0 +1,39 @@
+{
+  "title": "Malaria",
+  "slides": [
+    {"type": "title", "heading": "Malaria", "subtitle": "A parasitic infection transmitted by the night-biting female Anopheles mosquito."},
+    {"type": "bullets", "heading": "Overview", "bullets": [
+      "Causative agent: Plasmodium.",
+      "Mode of transmission: mosquito bite.",
+      "Incubation period: 5–15 days.",
+      "Diagnosis: Malarial Blood Smear."
+    ]},
+    {"type": "bullets", "heading": "Vector — Female Anopheles flavirostris", "bullets": [
+      "Breeds in clear, flowing, shaded streams.",
+      "Brown-colored and bigger than other species.",
+      "Night-biting (10 PM–4 AM); does not bite a person in motion."
+    ]},
+    {"type": "table", "heading": "Nursing Management by Stage", "columns": ["Stage", "Duration", "Management"], "rows": [
+      ["Cold", "15–60 min", "Warm blankets (prevent hypothermia), paracetamol, hydration, start ACT antimalarials"],
+      ["Hot", "2–6 hours", "Tepid sponge bath/cooling, hydration, paracetamol, continue antimalarials"],
+      ["Sweating", "2–4 hours", "Rehydration (replace fluid lost), rest & monitoring, nutritional support"]
+    ]},
+    {"type": "bullets", "heading": "Malaria Prophylaxis", "bullets": [
+      "Atovaquone-proguanil.",
+      "Doxycycline.",
+      "Mefloquine."
+    ]},
+    {"type": "bullets", "heading": "Prevention", "bullets": [
+      "4 S's: Search & destroy, Seek early consultation, Self-protection, Support fogging.",
+      "Repellents: DEET, Picaridin, Oil of Lemon Eucalyptus; treat nets twice a year.",
+      "Biologic control: mosquito fish (Gambusia), Tilapia, frogs; neem & eucalyptus.",
+      "TREC: Treatment, Report (weekly), Early detection, Casefinding."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Plasmodium via the night-biting (10 PM–4 AM) female Anopheles flavirostris.",
+      "Diagnose with a malarial blood smear.",
+      "Three clinical stages: cold → hot → sweating; treat with ACT.",
+      "Prophylaxis: atovaquone-proguanil, doxycycline, mefloquine."
+    ]}
+  ]
+}

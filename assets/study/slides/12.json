@@ -1,0 +1,49 @@
+{
+  "title": "Health Care Delivery System",
+  "slides": [
+    {"type": "title", "heading": "Health Care Delivery System", "subtitle": "The totality of societal services designed to protect or restore health — plus newborn screening."},
+    {"type": "bullets", "heading": "Newborn Screening (RA 9288)", "bullets": [
+      "Done after 24 hours of life via heel prick (lateral).",
+      "Detects genetic disorders to prevent complications and premature death."
+    ]},
+    {"type": "terms", "heading": "NBS — Basic Panel (6 disorders)", "terms": [
+      {"term": "Congenital hypothyroidism", "definition": "Thyroid hormone deficiency from birth."},
+      {"term": "Congenital adrenal hyperplasia", "definition": "Adrenal enzyme defect."},
+      {"term": "Galactosemia", "definition": "Inability to metabolize galactose."},
+      {"term": "G6PD deficiency", "definition": "Enzyme defect causing hemolysis."},
+      {"term": "Phenylketonuria (PKU)", "definition": "Inability to metabolize phenylalanine."},
+      {"term": "Maple-syrup urine disease", "definition": "Defect in branched-chain amino acid metabolism."}
+    ]},
+    {"type": "bullets", "heading": "Expanded NBS", "bullets": [
+      "Adds 22 more disorders (28 total).",
+      "Includes cystic fibrosis, organic acid disorders, amino acid disorders, fatty acid disorders."
+    ]},
+    {"type": "bullets", "heading": "Two Sectors of the System", "bullets": [
+      "Public sector — tax-financed (national & local); care generally free at point of service.",
+      "Private sector — market-oriented; care paid through user fees at point of service.",
+      "Devolution under the Local Government Code (1991) reorganized the national health system."
+    ]},
+    {"type": "table", "heading": "Levels of Health Care", "columns": ["Level", "Description", "Facilities"], "rows": [
+      ["Primary (accessible)", "First contact; basic services & traditional healers.", "Barangay Health Stations, RHU"],
+      ["Secondary", "Minor surgery & simple labs.", "Infirmaries, municipal/district & provincial hospitals, OPD"],
+      ["Tertiary", "Complicated cases & intensive care by specialists.", "Medical centers, regional/specialized hospitals"]
+    ]},
+    {"type": "terms", "heading": "Health Facilities & Staff", "terms": [
+      {"term": "BHS", "definition": "Satellite/extension station; manned by Public Health Midwife (PHM) and BHWs."},
+      {"term": "HC / RHU", "definition": "Main/intermediate center with the complete health care team."},
+      {"term": "RHU roles", "definition": "Frontline = PHM; supervisor = PHN; manager = RHP; plus sanitary inspector, medtech, dentist."}
+    ]},
+    {"type": "bullets", "heading": "Primary Health Care Workers", "bullets": [
+      "Village/BHWs — trained community health workers, health auxiliary volunteers, or traditional birth attendants/healers.",
+      "Intermediate-level workers — general medical practitioners/assistants, PHNs, rural sanitary inspectors, midwives.",
+      "PHN-to-population ratio (DOH): 1:10,000 (RA 7160, RA 7305).",
+      "Two-way referral system = intrasectoral linkage."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Newborn screening: RA 9288, heel prick after 24 h; basic = 6, expanded = 28 disorders.",
+      "System has a public (tax-funded, free) and private (user-fee) sector.",
+      "Three care levels: primary (BHS/RHU) → secondary → tertiary.",
+      "PHN ratio 1:10,000; care devolved under the LGU Code (1991)."
+    ]}
+  ]
+}

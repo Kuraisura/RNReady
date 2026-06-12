@@ -1,0 +1,100 @@
+name: rn_ready
+description: "Free open-source nursing board exam study app (PNLE/NCLEX)."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.5.1
+
+  # Rich text rendering (module text + AI answers)
+  flutter_markdown: ^0.7.3
+
+  # Networking (free LLM APIs)
+  http: ^1.2.2
+  flutter_dotenv: ^5.1.0    # keep API keys out of source
+
+  # Local storage / caching
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.4
+
+  # On-device LLM fallback (optional, fully offline)
+  # flutter_gemma: ^0.2.4
+
+  # UI niceties
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Native launcher-icon generation (iOS AppIcon set + Android mipmaps).
+  # NOTE: the real package is `flutter_launcher_icons` (the brief's
+  # "flutter_launch_icons" is a typo).
+  flutter_launcher_icons: ^0.14.1
+
+  # Native splash screen (iOS LaunchScreen + Android windowBackground + the
+  # Android 12 SplashScreen API).
+  flutter_native_splash: ^2.4.1
+
+# ── Launcher icon generation ────────────────────────────────────────────────
+# Drop the artwork into assets/images/ (see assets/images/README.md for sizes),
+# then run:  dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  image_path: "assets/images/app_icon.png"            # 1024×1024, opaque
+  adaptive_icon_background: "#0B1220"                  # Clinical-navy backdrop
+  adaptive_icon_foreground: "assets/images/app_icon_android_foreground.png"
+
+# ── Splash screen generation ────────────────────────────────────────────────
+# The mint heart logo centred on the clinical-navy field, light & dark.
+# Generate with:  dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#0B1220"
+  image: "assets/images/splash_logo.png"
+  color_dark: "#0B1220"
+  image_dark: "assets/images/splash_logo.png"
+  android_12:
+    color: "#0B1220"
+    image: "assets/images/splash_logo.png"
+    color_dark: "#0B1220"
+    image_dark: "assets/images/splash_logo.png"
+  android: true
+  ios: true
+  web: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
+    - assets/images/anatomy/
+    - assets/study/
+    - assets/study/slides/
+
+  # ── Dual-font typography (bundled offline) ────────────────────────────────
+  # Variable TTFs: Flutter applies the `wght` axis from each TextStyle's
+  # fontWeight automatically, so one file per family covers all weights.
+  fonts:
+    - family: Playfair Display      # serif — headers + clinical scenario prose
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Variable.ttf
+        - asset: assets/fonts/PlayfairDisplay-Italic-Variable.ttf
+          style: italic
+    - family: Inter                 # geometric sans — UI, body, labels
+      fonts:
+        - asset: assets/fonts/Inter-Variable.ttf
+        - asset: assets/fonts/Inter-Italic-Variable.ttf
+          style: italic
+

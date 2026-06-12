@@ -1,0 +1,53 @@
+{
+  "title": "Department of Health Programs",
+  "slides": [
+    {"type": "title", "heading": "Department of Health (DOH)", "subtitle": "The national agency that leads the health sector to assure quality health care for all Filipinos."},
+    {"type": "bullets", "heading": "Vision, Mission & Functions (E.O. 102)", "bullets": [
+      "Vision: Filipinos among the healthiest in Southeast Asia by 2022 and Asia by 2040.",
+      "Mission: lead a productive, resilient, equitable and people-centered health system.",
+      "E.O. 102 — 3 functions: Leadership in health (policies); Enabler & capacity builder (strategy & training); Administrative (manage tertiary/specialty/emergency hospitals).",
+      "Goal: National Objectives for Health — the roadmap, evaluated every 5 years."
+    ]},
+    {"type": "table", "heading": "Health Worker-to-Population Ratios", "columns": ["Worker", "Ratio", "Legal Basis"], "rows": [
+      ["PHN (nurse)", "1:10,000", "RA 7160, RA 7305"],
+      ["Midwife", "1:5,000", "RA 1082, RA 7305"],
+      ["RHU / Physician", "1:20,000", "RA 1082, RA 7160"]
+    ]},
+    {"type": "bullets", "heading": "Local Government Code 1991 (RA 7160)", "bullets": [
+      "Decentralization & devolution — transfer of power for health services.",
+      "DOH formulates programs; the LGU implements them.",
+      "Provincial government (governor = chairman) governs SECONDARY facilities; vice-chair = PHO.",
+      "Municipal/city government (mayor = chairman) governs PRIMARY facilities; vice-chair = MHO/CHO."
+    ]},
+    {"type": "bullets", "heading": "Health Sector Reform Agenda (HSRA)", "bullets": [
+      "Fiscal autonomy to government hospitals.",
+      "Secure funding for priority public health programs.",
+      "Develop local health systems and ensure performance.",
+      "Strengthen health regulatory agencies.",
+      "Expand coverage of the National Health Insurance Program."
+    ]},
+    {"type": "bullets", "heading": "FOURmula One for Health (Arroyo)", "bullets": [
+      "Goals: better health outcomes, more responsive systems, equitable health financing.",
+      "Elements: health financing, health regulation, health service delivery, good governance."
+    ]},
+    {"type": "bullets", "heading": "F1 PLUS — FOURmula One Plus (Duterte)", "bullets": [
+      "Theme: boosting universal health care.",
+      "Pillars: (1) Health financing — NHIP/PhilHealth (case-rate, per diagnosis); (2) Health regulation; (3) Health services delivery; (4) Good governance (transparent, accountable, efficient); (5) Performance accountability (outcome-based)."
+    ]},
+    {"type": "bullets", "heading": "Universal Health Care Act (RA 11223)", "bullets": [
+      "Theme: Pangkalahatang kalusugan.",
+      "All Filipinos are automatically enrolled in PhilHealth.",
+      "Thrusts: financial risk protection (expanded NHIP), improved access to quality facilities, attainment of health-related MDGs."
+    ]},
+    {"type": "terms", "heading": "Global Goals", "terms": [
+      {"term": "MDGs", "definition": "8 Millennium Development Goals — incl. reduce child mortality, improve maternal health, combat HIV/malaria."},
+      {"term": "SDGs 2030", "definition": "17 Sustainable Development Goals — incl. No. 3 Good health and well-being."}
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "DOH formulates; LGUs implement (devolution under RA 7160).",
+      "Province → secondary facilities; municipality/city → primary facilities.",
+      "RA 11223 (UHC) = automatic PhilHealth enrollment for all Filipinos.",
+      "Know the worker ratios: PHN 1:10,000, midwife 1:5,000, physician 1:20,000."
+    ]}
+  ]
+}

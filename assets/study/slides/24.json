@@ -1,0 +1,56 @@
+{
+  "title": "Bag Technique & Epidemiology",
+  "slides": [
+    {"type": "title", "heading": "Public Health Nurse Bag Technique", "subtitle": "A tool that lets the nurse perform procedures during a home visit with ease while preventing infection."},
+    {"type": "bullets", "heading": "Principles of Bag Technique", "bullets": [
+      "Minimizes / prevents the spread of infection.",
+      "Saves time and effort in performing nursing procedures.",
+      "Should show effectiveness of total care given.",
+      "May be performed in various ways per agency policy/home situation — as long as infection transfer is always avoided."
+    ]},
+    {"type": "bullets", "heading": "Use of the Bag", "bullets": [
+      "Contains all articles/supplies/equipment for emergency needs.",
+      "Clean often; replace supplies; keep ready for use anytime.",
+      "Protect from contact with the patient's articles — the bag & contents are clean/sterile; the patient's articles are considered dirty/contaminated.",
+      "Arrange contents conveniently for efficiency."
+    ]},
+    {"type": "bullets", "heading": "Key Steps in Performing Bag Technique", "bullets": [
+      "Place the bag on a clean paper-lined table (clean side out, folded part touching the table).",
+      "Ask for water; take out towel & soap; wash hands.",
+      "Put on the apron (right side out); take out needed articles; close the bag and set aside.",
+      "Perform the nursing care; afterward clean items, wash hands, and return items.",
+      "Remove apron (soiled side in), fold lining into the bag, close it.",
+      "Record data and give instructions; make the next appointment."
+    ]},
+    {"type": "bullets", "heading": "Epidemiology — Definition", "bullets": [
+      "Study of the distribution and determinants of health-related states/events in populations, applied to prevention and control.",
+      "Distribution: analysis by time, place and person.",
+      "Determinants: biological, chemical, physical, social, cultural, economic, genetic and behavioral factors."
+    ]},
+    {"type": "terms", "heading": "Epidemiologic Study Designs", "terms": [
+      {"term": "Descriptive", "definition": "Observes distribution of disease/characteristics in populations."},
+      {"term": "Case-control", "definition": "Retrospective — proceeds backward from effect to cause."},
+      {"term": "Cohort", "definition": "Proceeds forward from cause to effect (prospective or retrospective)."},
+      {"term": "Experimental (clinical trials)", "definition": "A treatment/procedure is intentionally introduced and the result observed (e.g., randomized controlled trials)."}
+    ]},
+    {"type": "bullets", "heading": "Data Presentation", "bullets": [
+      "Line listing — organizes data during surveillance/outbreaks.",
+      "Histogram — frequency distribution of a continuous variable.",
+      "Scatter diagram — relationship between two continuous variables.",
+      "Bar chart, pie chart, population pyramid (count/% by age & sex), maps (geographic location)."
+    ]},
+    {"type": "bullets", "heading": "PH Surveillance Systems (Philippines)", "bullets": [
+      "Notifiable Disease Reporting System (NDRS).",
+      "Field Health Service Information System (FHSIS).",
+      "National Epidemiology Sentinel Surveillance System (NESSS).",
+      "Expanded Program on Immunization Surveillance.",
+      "HIV/AIDS Registry."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Bag technique's overriding principle: prevent the transfer of infection.",
+      "Bag & contents = clean/sterile; patient's items = contaminated.",
+      "Epidemiology studies distribution (time/place/person) and determinants.",
+      "Case-control = backward (effect→cause); cohort = forward (cause→effect)."
+    ]}
+  ]
+}

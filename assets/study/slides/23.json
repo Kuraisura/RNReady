@@ -1,0 +1,41 @@
+{
+  "title": "Clinic and Home Visits",
+  "slides": [
+    {"type": "title", "heading": "Clinic and Home Visits", "subtitle": "Two core delivery settings of community health nursing."},
+    {"type": "bullets", "heading": "Clinic Visit", "bullets": [
+      "The client comes to the facility, mainly for consultation on physical complaints.",
+      "Registration/admission: greet & build rapport, prepare/retrieve family record, elicit chief complaint & history, perform & record PE.",
+      "Waiting time: priority numbers; first-come-first-served except emergencies.",
+      "Triaging: manage program-based cases; refer non-program cases to the physician; give first aid and refer emergencies."
+    ]},
+    {"type": "bullets", "heading": "Clinic Visit — Steps Continued", "bullets": [
+      "Clinical evaluation: validate history/PE, reach an evidence-based diagnosis, give rational DOH-based treatment, inform the client.",
+      "Laboratory: identify a designated referral lab when needed.",
+      "Referral: use the two-way referral system (BHS→RHU, RHU→RHU, RHU→hospital); accompany emergency referrals.",
+      "Prescription/dispensing: proper instructions on drug intake.",
+      "Health education: one-on-one counselling, reinforce messages, give next appointment."
+    ]},
+    {"type": "bullets", "heading": "Home Visit — Purpose", "bullets": [
+      "Give nursing care to the sick / postpartum mother & newborn, and teach a family member to continue care.",
+      "Assess living conditions and health practices to guide appropriate teaching.",
+      "Give health teaching on prevention and control of diseases.",
+      "Build a close relationship between health agencies and the public.",
+      "Use the inter-referral system and promote use of community services."
+    ]},
+    {"type": "bullets", "heading": "Steps in Conducting a Home Visit", "bullets": [
+      "Greet the patient and introduce yourself.",
+      "State the purpose of the visit.",
+      "Observe the patient and determine health needs.",
+      "Put the bag in a convenient place, then perform the bag technique.",
+      "Perform needed nursing care and give health teaching.",
+      "Record all important data, observations and care rendered.",
+      "Make an appointment for a return visit."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Clinic visit = client comes to the facility; home visit = nurse goes to the family.",
+      "Always use the two-way referral system and accompany emergency referrals.",
+      "Home visits also teach a responsible family member to continue care.",
+      "Every visit ends with documentation and a return appointment."
+    ]}
+  ]
+}

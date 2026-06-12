@@ -1,0 +1,43 @@
+{
+  "title": "Tuberculosis",
+  "slides": [
+    {"type": "title", "heading": "Tuberculosis (TB)", "subtitle": "The world's deadliest infectious disease and a major public health problem — Koch's disease."},
+    {"type": "bullets", "heading": "Overview", "bullets": [
+      "AKA Koch's disease / galloping consumption / phthisis.",
+      "Badly nourished, neglected, fatigued individuals are more prone; susceptibility highest in children <3 yrs.",
+      "Causative agents: Mycobacterium tuberculae, M. africanum, M. bovis.",
+      "Incubation period: 2–10 weeks; transmission: droplet/airborne (thrives in absence of sunlight).",
+      "Signs/symptoms: cough (>2 weeks), anorexia, chest pain."
+    ]},
+    {"type": "bullets", "heading": "Diagnostics", "bullets": [
+      "Gene Xpert — confirmatory.",
+      "Sputum smear microscopy — alternative (BHW collects, medtech analyzes); contraindicated in hemoptysis (refer if massive).",
+      "PPD/Mantoux/Tuberculin — test for exposure, read at 48–72 h: general population >10 mm, immunocompromised >5 mm.",
+      "Chest X-ray — most common."
+    ]},
+    {"type": "table", "heading": "Anti-TB Drugs (RIPES) — Side Effects", "columns": ["Drug", "Side Effect", "Nursing Note"], "rows": [
+      ["Rifampicin", "Red-orange secretions", "Avoid contact lenses"],
+      ["Isoniazid", "Peripheral neuritis", "Give vitamin B6 (pyridoxine)"],
+      ["Pyrazinamide", "Hyperuricemia", "Increase oral fluid intake"],
+      ["Ethambutol", "Optic neuritis / temporary color blindness", "Monitor vision"],
+      ["Streptomycin", "Ototoxicity (hearing loss)", "Monitor hearing"]
+    ]},
+    {"type": "bullets", "heading": "Management & DOTS", "bullets": [
+      "Check liver function; high-caloric diet; avoid physiotherapy.",
+      "TB DOTS (Directly Observed Treatment, Short-course) — taken before meals.",
+      "Control: BCG vaccine, exposure to direct sunlight, reusable utensils.",
+      "Categories: New (<1 month treated), Retreatment (>1 month), Relapse, Loss to follow-up, Treatment after failure."
+    ]},
+    {"type": "bullets", "heading": "National TB Control Program", "bullets": [
+      "Vision: a country where TB is no longer a public health problem.",
+      "Mission: ensure TB DOTS services are available to communities.",
+      "Targets: cure ≥85% of sputum-smear-positive patients; detect ≥70% of estimated new cases."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Cough >2 weeks → screen for TB; Gene Xpert confirms.",
+      "RIPES side effects: Rifampicin (orange), Isoniazid (neuritis → B6), Pyrazinamide (uric acid), Ethambutol (eyes), Streptomycin (ears).",
+      "Mantoux positive: >10 mm general, >5 mm immunocompromised.",
+      "DOTS taken before meals; check liver function during therapy."
+    ]}
+  ]
+}

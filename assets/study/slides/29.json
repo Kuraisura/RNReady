@@ -1,0 +1,40 @@
+{
+  "title": "Classification of Infectious Diseases",
+  "slides": [
+    {"type": "title", "heading": "Classification of Infectious Diseases", "subtitle": "How infections are grouped — by body involvement, behavior, severity, and host resistance."},
+    {"type": "bullets", "heading": "WHO Goals", "bullets": [
+      "Prevention of disease.",
+      "Prevention of disability and death from infection.",
+      "Prevention through immunization."
+    ]},
+    {"type": "terms", "heading": "By Manifestation in the Body", "terms": [
+      {"term": "Local", "definition": "Confined to one specific area; localized signs."},
+      {"term": "Systemic", "definition": "Microorganisms spread and damage different parts of the body; generalized signs."}
+    ]},
+    {"type": "terms", "heading": "By Behavior within the Host", "terms": [
+      {"term": "Infectious", "definition": "Caused by invasion and multiplication of a microorganism."},
+      {"term": "Endogenous", "definition": "Comes from the patient."},
+      {"term": "Exogenous", "definition": "Comes from the environment."},
+      {"term": "Contagious", "definition": "Spreads easily from one person to another."}
+    ]},
+    {"type": "bullets", "heading": "By Severity / Duration", "bullets": [
+      "Acute — develops rapidly, lasts a short time (days–weeks): Measles, Mumps, Rubella, Varicella, Hepatitis A.",
+      "Chronic — develops slowly, milder but longer-lasting (months–lifelong): TB, leprosy, Herpes Simplex 1 & 2, Hepatitis B/C/D.",
+      "Hepatitis B, C, D treated with Interferon IM; Hepatitis D requires co-infection/superinfection with Hepatitis B."
+    ]},
+    {"type": "terms", "heading": "By State of Host Resistance", "terms": [
+      {"term": "Primary infection", "definition": "Acute infection causing the initial illness."},
+      {"term": "Secondary infection", "definition": "Caused by an opportunistic pathogen after defenses are weakened."}
+    ]},
+    {"type": "terms", "heading": "Healthcare-Associated Infection", "terms": [
+      {"term": "Nosocomial", "definition": "Hospital/facility-based — develops during a stay or appears 48 hours after admission/discharge."},
+      {"term": "Iatrogenic", "definition": "Procedure-based — a direct result of diagnostic, therapeutic or invasive procedures."}
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "Classify by: body involvement, behavior in host, severity/duration, host resistance.",
+      "Endogenous = from patient; exogenous = from environment.",
+      "Nosocomial = facility-acquired (48 h rule); iatrogenic = procedure-caused.",
+      "Acute = MMRV/Hep A; chronic = TB, leprosy, HSV, Hep B/C/D."
+    ]}
+  ]
+}

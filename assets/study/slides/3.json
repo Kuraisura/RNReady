@@ -1,0 +1,144 @@
+{
+  "title": "Primary Health Care (PHC)",
+  "slides": [
+    {"type": "title", "heading": "Primary Health Care", "subtitle": "Essential, accessible, affordable health care made universal through full community participation — \"Health in the hands of the people.\""},
+    {"type": "bullets", "heading": "Definition & Legal Basis", "bullets": [
+      "Essential health care based on practical, scientifically sound, socially acceptable methods, universally accessible at a cost the community can afford (WHO 1978, UNICEF).",
+      "Declared at the Alma Ata Conference (Kazakhstan), 1978.",
+      "LOI 949 — legal basis of PHC in the Philippines (Marcos, Oct 1979).",
+      "Vision: \"Health in the hands of the people.\"",
+      "Mission: increase opportunities for people to manage their own health care."
+    ]},
+    {"type": "terms", "heading": "2 Core Concepts", "terms": [
+      {"term": "Partnership", "definition": "Active collaboration between health workers and the community."},
+      {"term": "Empowerment", "definition": "Transfer of knowledge, skills and attitude to the people."}
+    ]},
+    {"type": "bullets", "heading": "4 Pillars of PHC", "bullets": [
+      "Active community participation — the MOST important pillar.",
+      "Intra- & inter-sectoral linkages (intra = within the health system; inter = NGOs, government).",
+      "Use of appropriate technology (local indigenous resources, e.g., herbal).",
+      "Support mechanism made available (support from the local government)."
+    ]},
+    {"type": "bullets", "heading": "Characteristics of PHC", "bullets": [
+      "Community-based", "Accessible (within 3–5 km, within 30 minutes)", "Sustainable",
+      "Affordable (low cost)", "Self-reliance", "Available"
+    ]},
+    {"type": "terms", "heading": "Levels of Prevention", "terms": [
+      {"term": "Primary", "definition": "Patient is healthy — health education and immunization (health promotion & illness prevention)."},
+      {"term": "Secondary", "definition": "High-risk individuals — early diagnosis, screening and treatment to prevent complications."},
+      {"term": "Tertiary", "definition": "Post-treatment — rehabilitation and palliative care to limit disability and restore function."}
+    ]},
+    {"type": "table", "heading": "Protein-Energy Malnutrition", "columns": ["Feature", "Marasmus", "Kwashiorkor"], "rows": [
+      ["Carbohydrates", "Low", "Normal"],
+      ["Protein", "Low", "Low"],
+      ["Appearance", "Skin & bones, wrinkled", "Thin extremities, moon face, ascites"],
+      ["Other signs", "Severe wasting", "Fluid shifting, thin sparse hair"]
+    ]},
+    {"type": "table", "heading": "MUAC (Mid-Upper Arm Circumference)", "columns": ["Color", "Status", "Measurement"], "rows": [
+      ["Red", "Severe malnutrition", "<115 mm"],
+      ["Yellow", "Moderate malnutrition", "115–125 mm"],
+      ["Green", "Normal", ">125 mm"]
+    ]},
+    {"type": "bullets", "heading": "Micronutrients & Deficiencies", "bullets": [
+      "Vitamin A (Retinol) deficiency → Bitot's spots, corneal clouding, xerophthalmia, night blindness.",
+      "Food Fortification (Sangkap Pinoy) targets micronutrients — given April & October.",
+      "Iron → Iron Deficiency Anemia; best taken on an empty stomach (acidic) with orange juice/calamansi.",
+      "Iodine deficiency → goiter and mental retardation (given once/year)."
+    ]},
+    {"type": "table", "heading": "Vitamin A Dosing", "columns": ["Age", "Normal Dose", "Deficiency Schedule"], "rows": [
+      ["6–12 months", "100,000 IU", "Today, tomorrow & 2 weeks after"],
+      ["12–60 months", "200,000 IU", "Today, tomorrow & 2 weeks after"]
+    ]},
+    {"type": "bullets", "heading": "Immunization — EPI", "bullets": [
+      "Expanded Program on Immunization → DOH National Immunization Program (NIP).",
+      "PD 996 (1976): free vaccines for children below 8 years old.",
+      "RA 10152 (2011): mandatory immunization for children below 5 years old.",
+      "Pentavalent (5-in-1): Diphtheria, Pertussis, Tuberculosis, Hepatitis B + HiB (prevents meningitis).",
+      "National Immunization Day: Wednesday; BHS monthly; GIDA quarterly."
+    ]},
+    {"type": "bullets", "heading": "Cold Chain", "bullets": [
+      "All vaccines are sensitive to heat.",
+      "Most heat-sensitive (Freezer −15°C to −25°C): Varicella, OPV, MMR.",
+      "Body of refrigerator (+2°C to +8°C): BCG, Hepa B, Pentavalent, PCV, Rota, IPV, TT/TD.",
+      "Vaccine Vial Monitor (VVM): if the inner square is LIGHTER than the circle — OK to give."
+    ]},
+    {"type": "table", "heading": "EPI Vaccine Schedule", "columns": ["Vaccine", "Doses", "Schedule", "Route", "Dose (mL)"], "rows": [
+      ["BCG", "1", "At birth", "Intradermal", "0.05"],
+      ["Hepatitis B", "—", "At birth", "Intramuscular", "0.5"],
+      ["Pentavalent", "3", "6, 10, 14 weeks", "Intramuscular", "0.5"],
+      ["OPV", "—", "with Penta", "Oral", "2 drops"],
+      ["PCV", "—", "6, 10, 14 weeks", "Intramuscular", "0.5"],
+      ["Rotavirus", "2", "6 & 10 weeks", "Oral", "1.5"],
+      ["IPV", "—", "6 & 14 weeks", "Intramuscular", "0.5"],
+      ["MMR", "—", "9 & 12 months", "Subcutaneous", "0.5"]
+    ]},
+    {"type": "bullets", "heading": "Key Vaccine Notes", "bullets": [
+      "BCG: contraindicated in AIDS, leukemia, chemotherapy; clean site with water only; Koch's phenomenon.",
+      "Pentavalent: fever → paracetamol; seizure/convulsion (from pertussis) within 3 days → withhold Penta 2 & 3.",
+      "OPV: live attenuated, on the tongue; if vomits within 30 min, repeat the dose.",
+      "MMR: live attenuated; fever → paracetamol, rashes → keep dry."
+    ]},
+    {"type": "table", "heading": "Vaccine Wastage Factor", "columns": ["Wastage %", "Vaccines"], "rows": [
+      ["5%", "Pentavalent, PCV, Rotavirus"],
+      ["15%", "Hepatitis B, IPV, TT/TD, Flu"],
+      ["25%", "MMR, MR, Japanese Encephalitis, OPV"],
+      ["60%", "BCG (most sensitive of all)"]
+    ]},
+    {"type": "table", "heading": "Sanitation — Water Facility Levels", "columns": ["Level", "Description"], "rows": [
+      ["Level 1", "Point source — protected/deep well, developed spring; >250 m; rural."],
+      ["Level 2", "Communal faucet / stand posts; 1 per 4–5 households."],
+      ["Level 3", "Individual household connection; waterworks system; cleanest."]
+    ]},
+    {"type": "table", "heading": "Sanitation — Toilet Facility Levels", "columns": ["Level", "Description"], "rows": [
+      ["Level 1", "Non-water carriage — pit latrines."],
+      ["Level 2", "Pour-flush / water-sealed toilet with septic tank."],
+      ["Level 3", "Level 2 + sewerage system & treatment plant; cleanest."]
+    ]},
+    {"type": "bullets", "heading": "Food Safety (4 Rights) & Codes", "bullets": [
+      "Right Source (fresh), Right Preparation (wash), Right Cooking (70°C), Right Storage (cool 10°C / warm 60°C).",
+      "Room temperature: maximum of 2 hours.",
+      "PD 856 — Sanitation Code of the Philippines; PD 825 — Garbage Disposal Act.",
+      "Establishment: owner needs a sanitary permit; food handlers need a health certificate."
+    ]},
+    {"type": "terms", "heading": "Epidemiology — Disease Occurrence", "terms": [
+      {"term": "Sporadic", "definition": "Occurs only occasionally."},
+      {"term": "Endemic", "definition": "Constantly present in a population/community."},
+      {"term": "Epidemic / Outbreak", "definition": "Greater than the normal number of cases in an area within a short period."},
+      {"term": "Pandemic", "definition": "An epidemic that occurs worldwide."}
+    ]},
+    {"type": "table", "heading": "Vital Statistics", "columns": ["Rate", "Measures / Formula"], "rows": [
+      ["Crude Birth Rate", "Natural increase — total births / total population × 1000"],
+      ["Crude Death Rate", "Natural decrease — total deaths / total population × 1000"],
+      ["Maternal Mortality Rate", "Index of prenatal care — deaths due to pregnancy / live births × 1000"],
+      ["Infant Mortality Rate", "Index of health status — deaths >28 d to <1 yr / live births × 1000"],
+      ["Incidence Rate", "Acute disease (<6 mo) — new cases / total population × 1000"],
+      ["Prevalence Rate", "Chronic disease (>6 mo) — old + new cases / persons examined × 100"],
+      ["Swaroop's Index", "Best index of community health — deaths >50 yo / total deaths × 100"]
+    ]},
+    {"type": "bullets", "heading": "Maternal & Child Health", "bullets": [
+      "Prenatal visits: 8 (WHO) / 4 (DOH); Sentrong Sigla = quality assurance program.",
+      "BEmOC: oxytocin, antibiotic, anticonvulsant (MgSO4 for pre-eclampsia), steroids, assisted delivery, manual placenta removal.",
+      "CEmOC: BEmOC + blood transfusion & cesarean section.",
+      "AMTSL (3rd stage of labor): IM oxytocin → controlled cord traction → uterine massage."
+    ]},
+    {"type": "table", "heading": "Tetanus Toxoid (TT/TD) Schedule", "columns": ["Dose", "Schedule", "Mother (Active) Protection"], "rows": [
+      ["TT1", "Anytime / 5th–6th month", "None (0%)"],
+      ["TT2", "1 month after TT1", "3 years (80%)"],
+      ["TT3", "6 months after TT2", "5 years (95%)"],
+      ["TT4", "1 year after TT3", "10 years (99%)"],
+      ["TT5", "1 year after TT4", "Lifetime (99%)"]
+    ]},
+    {"type": "bullets", "heading": "Essential Newborn Care (Unang Yakap)", "bullets": [
+      "Time-bound: dry infant immediately → early skin-to-skin → delayed cord clamping (1–3 min) → breastfeeding (exclusive 6 months).",
+      "Non-time-bound: Hepatitis B, Vitamin K, erythromycin eye ointment, anthropometric measurement, APGAR (1 & 5 min).",
+      "Unnecessary/avoid: routine suctioning, slapping/heel stimulation, footprinting, milking the cord, immediate bathing, antiseptic on the stump.",
+      "Newborn screening detects genetic disorders to prevent mental retardation and premature death."
+    ]},
+    {"type": "summary", "heading": "Key Takeaways", "bullets": [
+      "PHC: Alma Ata 1978; LOI 949; vision \"Health in the hands of the people.\"",
+      "Pillars: active participation (most important), linkages, appropriate technology, support.",
+      "Master the EPI schedule, cold chain, and wastage factors.",
+      "MCH essentials: TT schedule, BEmOC/CEmOC, and Unang Yakap (EINC)."
+    ]}
+  ]
+}
