@@ -67,65 +67,115 @@ flutter run
 flutter test
 ```
 
-## Screenshots
+## Screenshot and module walkthrough
 
-<table>
-<tr>
-<td align="center"><img src="screenshots/1.png" alt="Study hub" width="260"><br>Study hub</td>
-<td align="center"><img src="screenshots/2.png" alt="AI Tutor" width="260"><br>AI Tutor</td>
-</tr>
-</table>
+Expand a screen below to see the capture and an explanation of the module, its visible controls, and its role in the application.
+
+<details open>
+<summary><strong>01 · Nursing-review home</strong></summary>
+
+Quick actions open the AI tutor, clinical cases, care plans, notes, anatomy lab, and practice quizzes. Nursing-practice sections continue below, making the home screen the starting point for different review activities.
+
+<p><img src="screenshots/1.png" alt="Nursing-review home" width="360"></p>
+
+</details>
 
 <details>
-<summary>View all 12 screenshots</summary>
+<summary><strong>02 · AI tutor conversation</strong></summary>
 
-### 1. Study hub
+The chat screen shows a learner question, a generated explanation, a message field, and a clear-history action. It supports follow-up study questions; the visible response is AI-generated material, not validated clinical guidance.
 
-![Study hub](screenshots/1.png)
+<p><img src="screenshots/2.png" alt="AI tutor conversation" width="360"></p>
 
-### 2. AI Tutor
+</details>
 
-![AI Tutor](screenshots/2.png)
+<details>
+<summary><strong>03 · Clinical-case category selection</strong></summary>
 
-### 3. Clinical case library
+Topic cards group practice around physiology, emergencies, disease, prioritization, pharmacology, and communication. Learners choose the area for a generated scenario rather than starting with an unrelated random case.
 
-![Clinical case library](screenshots/3.png)
+<p><img src="screenshots/3.png" alt="Clinical-case category selection" width="360"></p>
 
-### 4. Expanded case categories
+</details>
 
-![Expanded case categories](screenshots/4.png)
+<details>
+<summary><strong>04 · Additional clinical-case topics</strong></summary>
 
-### 5. Personal study journal
+The lower category list adds maternal/child care, ethics, diagnostics, infection control, and a random-topic option. It expands the same scenario-selection module to more review areas.
 
-![Personal study journal](screenshots/8.png)
+<p><img src="screenshots/4.png" alt="Additional clinical-case topics" width="360"></p>
 
-### 6. Anatomy Lab menu
+</details>
 
-![Anatomy Lab menu](screenshots/9.png)
+<details>
+<summary><strong>05 · Notes and journal</strong></summary>
 
-### 7. Interactive anatomy exercise
+A saved note card and New note button show the personal writing space. This module keeps short reflections, reminders, and study notes alongside the review tools.
 
-![Interactive anatomy exercise](screenshots/10.png)
+<p><img src="screenshots/8.png" alt="Notes and journal" width="360"></p>
 
-### 8. Quiz topic browser
+</details>
 
-![Quiz topic browser](screenshots/11.png)
+<details>
+<summary><strong>06 · Anatomy topic library</strong></summary>
 
-### 9. Quiz configuration
+Illustrated cards organize labeling exercises by structure, including heart, neuron, skin, bone, eye, and respiratory topics. Each card identifies the body system and the number of parts available for practice.
 
-![Quiz configuration](screenshots/12.png)
+<p><img src="screenshots/9.png" alt="Anatomy topic library" width="360"></p>
 
-### 10. Timed quiz in progress
+</details>
 
-![Timed quiz in progress](screenshots/13.png)
+<details>
+<summary><strong>07 · Heart-labeling exercise</strong></summary>
 
-### 11. Results with rationale
+Numbered callouts connect a heart diagram to a list of labels, with some entries left for the learner to complete. Visible attribution identifies the illustration source; the activity focuses on recalling anatomical names.
 
-![Results with rationale](screenshots/14.png)
+<p><img src="screenshots/10.png" alt="Heart-labeling exercise" width="360"></p>
 
-### 12. Study material reader
+</details>
 
-![Study material reader](screenshots/15.png)
+<details>
+<summary><strong>08 · Practice-quiz topic browser</strong></summary>
+
+Numbered subtopics and completion indicators sit under a nursing-practice section. Learners can see which topics remain unattempted and select material for a focused quiz.
+
+<p><img src="screenshots/11.png" alt="Practice-quiz topic browser" width="360"></p>
+
+</details>
+
+<details>
+<summary><strong>09 · Question-type selection</strong></summary>
+
+A bottom sheet lets the learner select multiple choice, identification, enumeration, and matching. The Start button reflects the chosen types before a practice attempt begins.
+
+<p><img src="screenshots/12.png" alt="Question-type selection" width="360"></p>
+
+</details>
+
+<details>
+<summary><strong>10 · Timed practice question</strong></summary>
+
+A countdown, question number, point value, answer choices, and Next button form the quiz-taking view. The interface supports timed retrieval practice without requiring the learner to leave the selected topic.
+
+<p><img src="screenshots/13.png" alt="Timed practice question" width="360"></p>
+
+</details>
+
+<details>
+<summary><strong>11 · Quiz results and rationales</strong></summary>
+
+The results page combines score, correct-answer count, points, and duration with question-by-question review. Rationale text and Retry help users revisit mistakes after an attempt.
+
+<p><img src="screenshots/14.png" alt="Quiz results and rationales" width="360"></p>
+
+</details>
+
+<details>
+<summary><strong>12 · Study-module slide reader</strong></summary>
+
+A paginated slide displays module notes with previous/next navigation. Ask AI and Quiz this subtopic connect reading to explanation and practice, keeping those activities tied to the current material.
+
+<p><img src="screenshots/15.png" alt="Study-module slide reader" width="360"></p>
 
 </details>
 
