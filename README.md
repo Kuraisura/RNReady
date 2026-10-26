@@ -1,147 +1,134 @@
-# 🩺 RN Ready
+# RN Ready
 
-**Nursing Board Exam Review App** · `Mobile`
+A Flutter nursing-review app combining study modules, practice quizzes, anatomy exercises, and AI-assisted review.
 
-Comprehensive nursing review app with AI tutor, clinical cases, practice quizzes, anatomy lab, and study materials for PNLE preparation.
+**Flutter / Cross-platform** · **In Development** · 2026
 
-## Why This Project
+[Portfolio](https://kuraisler.xyz)
 
-The Philippine Nursing Licensure Examination is a high-stakes, syllabus-wide exam, and students preparing for it typically juggle review centers, photocopied transes, anatomy atlases, and late-night cramming with no single tool that mirrors how the board actually tests: situational judgment, care planning, rationales, and time pressure. Generic quiz apps drill facts without clinical context; AI chatbots answer questions but don't score a student's reasoning or generate board-style items from their own reviewer notes; anatomy apps rarely connect labeling practice to the rest of the curriculum.
+## Purpose
 
-RN Ready was built by Mark Crysler Baddo as a solo Flutter project to consolidate that preparation into one purpose-built companion for nursing students: an AI tutor available at 2 a.m., endless AI-generated clinical cases scored by a virtual instructor, an ADPIE care-plan generator, timed practice quizzes generated from bundled module notes and cached for offline retakes, and an interactive anatomy lab — all aimed at one measurable outcome, walking into the PNLE ready rather than merely studied.
+RN Ready brings nursing review activities into one application. Students can read module material, test knowledge, work through clinical scenarios, review anatomy, and keep notes instead of switching between separate review tools.
 
-## How It Works
+## Intended users
 
-Kaye is a final-year nursing student eight weeks out from the November PNLE. She opens RN Ready between duty shifts and lands on the home dashboard, where quick actions for AI Tutor, Clinical Case, Care Plan, and Notes sit above her Nursing Practice sections with per-subtopic completion counts. She taps into Community Health Nursing, swipes through the generated slide deck for a subtopic she's weak on, and hits "Ask AI" mid-slide to clarify a DOH program detail the deck glossed over — the tutor answers in context and the conversation persists for later.
+Nursing students and graduates preparing for the Philippine Nursing Licensure Examination or reviewing nursing topics.
 
-That night she runs "Quiz this subtopic": the generator produces board-style multiple-choice and identification questions from the bundled notes, caches them to disk so tomorrow's bus ride works offline, and launches a timed session. She scores 12/15, and the results screen shows the rationale for every item, not just the answer key. The next morning she drills the Anatomy Lab heart diagram, labeling hidden structures until the spatial memory sticks, then opens Care Plan and pastes a sepsis scenario from her case study — receiving a full ADPIE plan in the classic six-column grid she can annotate and save to her journal. When her campus Wi-Fi drops mid-tutor session she sees a friendly offline card instead of an error, and her cached quizzes keep working. One app, every modality the board rewards, one target: passing.
+## Main capabilities
 
-## Modules
+- Read bundled study modules and slide-based review content.
+- Take timed quizzes and review answer rationales and progress.
+- Practice anatomy labeling and clinical-case exercises.
+- Use an AI tutor, care-plan assistance, and a personal notes section.
 
-### Home Dashboard
+## How it was built
 
-The study hub: a Riverpod provider loads the section-to-subtopic outline once, quick-action tiles route into every major tool, Nursing Practice sections render with accent icons and quiz-progress badges, and a theme toggle switches light/dark. Everything is one tap from the first frame.
+### Cross-platform application
 
-**Scenario:** Kaye opens the app on a five-minute break, sees Maternal & Child Health still at 0/56 completion, and jumps straight into that section's quiz bank instead of scrolling through unrelated review apps.
+Flutter and Dart provide the interface. Feature folders separate tutor, anatomy, clinical cases, quizzes, modules, and notes; Riverpod manages application state.
 
-### AI Tutor
+### Study and AI services
 
-A persistent chat interface for natural-language nursing questions, backed by the shared LLM service with a nursing-focused system prompt. Conversations are stored locally so they survive restarts, and an offline view appears gracefully when the network is gone rather than surfacing raw provider errors.
+JSON assets provide bundled material. A shared HTTP-based language-model service supports multiple AI providers and fallback handling.
 
-**Scenario:** At 1 a.m. Kaye asks why a hypokalemic patient develops muscle weakness and U-waves; the tutor explains the mechanism in plain language, she follows up with a question about replacement precautions, and the whole thread is still there the next evening when she reviews it.
+### Local persistence
 
-### Clinical Case Simulator
+SharedPreferences and local file storage retain settings, notes, and cached study state. Bundled fonts and assets support local reading, while AI features need network access.
 
-Specialty-organized, endlessly AI-generated scenarios — pharmacology, emergencies, ethics, maternal & child health, infection control, and more — where students answer in free text and a "Clinical Instructor" prompt evaluates the response, returning structured feedback and a 0–100 score. Cases regenerate on demand so practice never runs out.
+## Technology stack
 
-**Scenario:** Kaye picks the emergencies category, reads a scenario about an anaphylactic reaction, types her prioritization and interventions, and receives a scored critique pointing out the epinephrine-first ordering she missed — critical thinking drilled the way the board tests it, not rote recall.
+| Responsibility | Technologies |
+| --- | --- |
+| Application | Flutter, Dart, Riverpod |
+| AI & networking | HTTP, Groq, Gemini, OpenRouter |
+| Study content & storage | JSON assets, SharedPreferences, path_provider |
+| Reading interface | Flutter Markdown, Bundled fonts |
 
-### Care Plan Generator
+## Project scope and current state
 
-Turns a pasted patient situation into a complete Nursing Care Plan — Assessment, Diagnosis, Outcomes/Planning, Interventions, Rationale, and Evaluation — parsed from structured AI output and rendered either as readable stacked cards or the classic six-column grid, with markdown support and the option to save the result into notes.
+A personal learning project in development with Flutter platform targets. It is a study aid rather than clinical decision support, an official exam product, or a guarantee of exam coverage. AI answers and rationales need review.
 
-**Scenario:** For her case-study submission Kaye pastes vitals and symptoms from a simulated sepsis patient, taps generate, and reviews a full ADPIE plan with rationales in the grid format her clinical instructor expects — then saves it to her journal to annotate before rendering her return demonstration.
+## Source guide
 
-### Practice Quiz Bank
+- [`lib/features/`](lib/features/)
+- [`lib/data/services/llm_service.dart`](lib/data/services/llm_service.dart)
+- [`assets/study/`](assets/study/)
+- [`test/`](test/)
 
-Every subtopic under every Nursing Practice section is listed with completion progress; tapping one generates board-style questions (multiple choice, identification, and more) from the bundled module notes via AI, merges them into an on-disk cache for offline retakes, and launches a configurable timed session. Results show score, time used, and per-item rationale, while a progress store tracks what's been completed.
+## Development setup
 
-**Scenario:** Kaye opens "Nursing Practice I," sees which of the 56 subtopics remain untested, generates a 15-question mixed-format quiz for one of them, takes it under a 10-minute timer on the commute, and reviews the rationale for every miss before arriving at the hospital — retakes drawing from an accumulating offline pool.
+Use a Flutter/Dart SDK compatible with pubspec.yaml and your chosen platform tooling. Create the local .env asset expected by the pubspec and configure the LLM service for online AI features. Distributed app assets are not a place for privileged service credentials. Bundled material supports local reading; AI features require connectivity.
 
-### Anatomy Lab
+```sh
+flutter pub get
+flutter run
 
-Bundled anatomical diagrams — heart, neurons, skin, bones, eyes, lungs, and more — rendered with custom painters; each round hides a subset of labels and scores the student as they fill the blanks, reshuffling every attempt so spatial memory is tested rather than position memorization.
-
-**Scenario:** Kaye drills the heart diagram three mornings in a row; each round hides different labels (aorta, right atrium, mitral valve), and by the third session she can name every structure without hesitation on her anatomy practical.
-
-### Study Modules & Slide Decks
-
-The curriculum layer: a module-structure model maps sections to subtopics over the bundled study content, each subtopic opens a PowerPoint-style slide deck generated from the extracted module text, and every deck keeps "Ask AI" and "Quiz this subtopic" actions so passive reading converts into active review without leaving the screen.
-
-**Scenario:** Kaye swipes through six slides on infection control during a lull at the ward, taps "Ask AI" to unpack a sterilization definition, then launches a quiz on the same subtopic — read, clarify, test, in one continuous flow.
-
-### Notes & Journal
-
-A local notes list and editor for clinical observations, mnemonics, and reflections, with quick capture from a floating action button on the list screen.
-
-**Scenario:** Post-duty, Kaye jots the mnemonic her preceptor taught for Ballard signs, tags it in her journal, and finds it again during finals review three weeks later instead of lost in a notes app mixed with grocery lists.
-
-### LLM Service Layer
-
-The shared AI infrastructure: a provider chain (Groq → Gemini → OpenRouter) with multi-model fallback so a retired model id doesn't abort a request, dotenv-loaded keys, and distinct OfflineException / MissingKeyException types that let every feature render a friendly, specific state instead of a stack trace. Chat persistence and study-content loading sit alongside it as the app's data services.
-
-**Scenario:** During Kaye's café session a retired Groq model starts returning errors; the service silently fails over to Gemini and her tutor reply arrives as if nothing happened — and when the café Wi-Fi dies entirely, she gets a clean offline card and retries later with her conversation intact.
-
-## Features
-
-- AI Tutor chat for nursing and health science questions
-- Clinical case studies across 10+ specialty categories
-- Timed practice quizzes with answer review and rationale
-- Interactive anatomy labeling activities
-- Notes & journal for personal study
-- Study materials with Ask AI integration
-
-## Tech Stack
-
-- React Native
-- Expo
-- Supabase
-- OpenAI API
+# Included tests
+flutter test
+```
 
 ## Screenshots
 
-### Study hub — the home screen organizes all review tools (AI Tutor, Clinical Case, Care Plan, Anatomy Lab) into a single dashboard. The "Ready to pass the PNLE?" headline speaks directly to the student's goal.
+<table>
+<tr>
+<td align="center"><img src="screenshots/1.png" alt="Study hub" width="260"><br>Study hub</td>
+<td align="center"><img src="screenshots/2.png" alt="AI Tutor" width="260"><br>AI Tutor</td>
+</tr>
+</table>
 
-![Study hub — the home screen organizes all review tools (AI Tutor, Clinical Case, Care Plan, Anatomy Lab) into a single dashboard. The "Ready to pass the PNLE?" headline speaks directly to the student's goal.](screenshots/1.png)
+<details>
+<summary>View all 12 screenshots</summary>
 
-### AI Tutor — students ask any nursing question in natural language and receive instant explanations. This replaces waiting for an instructor and is available 24/7 for late-night study sessions.
+### 1. Study hub
 
-![AI Tutor — students ask any nursing question in natural language and receive instant explanations. This replaces waiting for an instructor and is available 24/7 for late-night study sessions.](screenshots/2.png)
+![Study hub](screenshots/1.png)
 
-### Clinical case library — organizes real-world nursing scenarios by specialty (pharmacology, emergencies, ethics). Students choose a category to practice critical thinking in context, not just memorize facts.
+### 2. AI Tutor
 
-![Clinical case library — organizes real-world nursing scenarios by specialty (pharmacology, emergencies, ethics). Students choose a category to practice critical thinking in context, not just memorize facts.](screenshots/3.png)
+![AI Tutor](screenshots/2.png)
 
-### Expanded case categories — reveals additional specialties like Maternal & Child Health and Infection Control, covering the full PNLE syllabus so no exam topic is left unpracticed.
+### 3. Clinical case library
 
-![Expanded case categories — reveals additional specialties like Maternal & Child Health and Infection Control, covering the full PNLE syllabus so no exam topic is left unpracticed.](screenshots/4.png)
+![Clinical case library](screenshots/3.png)
 
-### Personal study journal — lets nurses jot down clinical observations, mnemonics, or reflection notes. The "New note" button provides quick capture during study breaks.
+### 4. Expanded case categories
 
-![Personal study journal — lets nurses jot down clinical observations, mnemonics, or reflection notes. The "New note" button provides quick capture during study breaks.](screenshots/8.png)
+![Expanded case categories](screenshots/4.png)
 
-### Anatomy Lab menu — visual cards for each body system (heart, neurons, skin, bones, eyes, lungs) let students choose which anatomy topic to practice labeling. Visual learning reinforces textbook study.
+### 5. Personal study journal
 
-![Anatomy Lab menu — visual cards for each body system (heart, neurons, skin, bones, eyes, lungs) let students choose which anatomy topic to practice labeling. Visual learning reinforces textbook study.](screenshots/9.png)
+![Personal study journal](screenshots/8.png)
 
-### Interactive anatomy exercise — students label numbered parts of the heart diagram. Immediate feedback on correct answers (Aorta, Right atrium) reinforces spatial memory of anatomical structures.
+### 6. Anatomy Lab menu
 
-![Interactive anatomy exercise — students label numbered parts of the heart diagram. Immediate feedback on correct answers (Aorta, Right atrium) reinforces spatial memory of anatomical structures.](screenshots/10.png)
+![Anatomy Lab menu](screenshots/9.png)
 
-### Quiz topic browser — lists all subtopics under Nursing Practice I with completion progress (0/56). Students can see exactly which topics they haven't studied yet and prioritize accordingly.
+### 7. Interactive anatomy exercise
 
-![Quiz topic browser — lists all subtopics under Nursing Practice I with completion progress (0/56). Students can see exactly which topics they haven't studied yet and prioritize accordingly.](screenshots/11.png)
+![Interactive anatomy exercise](screenshots/10.png)
 
-### Quiz configuration — lets students choose question types (multiple choice, identification) and start a focused session on specific subtopics rather than random questions.
+### 8. Quiz topic browser
 
-![Quiz configuration — lets students choose question types (multiple choice, identification) and start a focused session on specific subtopics rather than random questions.](screenshots/12.png)
+![Quiz topic browser](screenshots/11.png)
 
-### Timed quiz in progress — 10-minute timer with multiple-choice questions simulates real PNLE pressure. The countdown trains students to manage time during the actual board exam.
+### 9. Quiz configuration
 
-![Timed quiz in progress — 10-minute timer with multiple-choice questions simulates real PNLE pressure. The countdown trains students to manage time during the actual board exam.](screenshots/13.png)
+![Quiz configuration](screenshots/12.png)
 
-### Results with rationale — shows score, time used, and most importantly WHY each answer was right or wrong. The detailed review transforms mistakes into learning opportunities.
+### 10. Timed quiz in progress
 
-![Results with rationale — shows score, time used, and most importantly WHY each answer was right or wrong. The detailed review transforms mistakes into learning opportunities.](screenshots/14.png)
+![Timed quiz in progress](screenshots/13.png)
 
-### Study material reader — presents structured content (DOH programs, laws, nursing theories) with pagination. "Ask AI" and "Quiz this subtopic" buttons turn passive reading into active learning.
+### 11. Results with rationale
 
-![Study material reader — presents structured content (DOH programs, laws, nursing theories) with pagination. "Ask AI" and "Quiz this subtopic" buttons turn passive reading into active learning.](screenshots/15.png)
+![Results with rationale](screenshots/14.png)
 
-## About
+### 12. Study material reader
 
-A mobile review application for the Philippine Nursing Licensure Examination (PNLE). Combines AI-powered tutoring, clinical case simulations, anatomy exercises, and structured practice quizzes with detailed answer explanations.
+![Study material reader](screenshots/15.png)
+
+</details>
 
 ---
 
-Built by [Mark Crysler Baddo](https://github.com/Kuraisura) · [Portfolio](https://kuraisler.xyz)
+Project by [Mark Crysler Baddo](https://github.com/Kuraisura) · [Portfolio](https://kuraisler.xyz)
